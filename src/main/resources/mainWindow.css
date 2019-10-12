@@ -1,0 +1,59 @@
+.sidebar{
+    -fx-background-color: #30323f;
+}
+
+.button{
+    -fx-pref-height: 80px;
+    -fx-pref-width: 80px;
+    -fx-background-size: 80px 80px;
+}
+
+.openBtn{
+    -fx-background-color: #e85656;
+    -fx-background-image: url("icons/open.png");
+
+}
+
+.openBtn:hover{
+    -fx-cursor: hand;
+}
+
+.startBtn{
+    -fx-background-color: #30323f;
+    -fx-background-image: url("icons/run.png");
+}
+
+.startBtn:hover{
+    -fx-background-image: url("icons/run-hover.png");
+    -fx-cursor: hand;
+}
+
+.stopBtn{
+    -fx-background-color: #30323f;
+    -fx-background-image: url("icons/stop.png");
+}
+
+.stopBtn:hover{
+    -fx-background-image: url("icons/stop-hover.png");
+    -fx-cursor: hand;
+}
+
+.restartBtn{
+    -fx-background-color: #30323f;
+    -fx-background-image: url("icons/restart.png");
+}
+
+.restartBtn:hover{
+    -fx-background-image: url("icons/restart-hover.png");
+    -fx-cursor: hand;
+}
+
+.monitoringBtn{
+    -fx-background-color: #30323f;
+    -fx-background-image: url("icons/monitoring.png");
+}
+
+.monitoringBtn:hover{
+    -fx-background-image: url("icons/monitoring-hover.png");
+    -fx-cursor: hand;
+}
